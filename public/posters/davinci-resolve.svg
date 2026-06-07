@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="DaVinci Resolve">
+  <defs>
+    <linearGradient id="bg" x1="12" y1="12" x2="84" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1f8fff"/>
+      <stop offset="0.52" stop-color="#21d19f"/>
+      <stop offset="1" stop-color="#d72638"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="22" fill="#080a0f"/>
+  <circle cx="48" cy="48" r="34" fill="url(#bg)" opacity="0.92"/>
+  <circle cx="48" cy="48" r="12" fill="#f5f7fa"/>
+  <circle cx="48" cy="22" r="9" fill="#10141c"/>
+  <circle cx="25" cy="61" r="9" fill="#10141c"/>
+  <circle cx="71" cy="61" r="9" fill="#10141c"/>
+</svg>
