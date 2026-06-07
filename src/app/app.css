@@ -242,20 +242,17 @@
   display: block;
 }
 
-.work-video-placeholder {
+.work-video-thumbnail {
   width: 100%;
   aspect-ratio: 16 / 9;
   display: block;
-  background:
-    linear-gradient(135deg, rgba(31, 143, 255, 0.28), transparent 38%),
-    radial-gradient(circle at 72% 28%, rgba(215, 38, 56, 0.22), transparent 30%),
-    linear-gradient(145deg, #171d28, #07080d);
+  object-fit: cover;
   transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
-.work-video-button:hover .work-video-placeholder {
+.work-video-button:hover .work-video-thumbnail {
   transform: scale(1.03);
-  opacity: 0.72;
+  opacity: 0.82;
 }
 
 .play-badge {

@@ -64,7 +64,7 @@
       @for (video of videos; track video.src) {
         <article class="work-card">
           <button class="work-video-button" type="button" (click)="openVideo(video)">
-            <span class="work-video-placeholder" aria-hidden="true"></span>
+            <img class="work-video-thumbnail" [src]="video.thumbnail" [alt]="'Miniatura de ' + video.title">
             <span class="play-badge">Ver video</span>
           </button>
           <h3>{{ video.title }}</h3>
