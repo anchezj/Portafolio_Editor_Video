@@ -3,6 +3,7 @@ import { Component, signal } from '@angular/core';
 type PortfolioVideo = {
   title: string;
   src: string;
+  thumbnail: string;
 };
 
 @Component({
@@ -17,12 +18,12 @@ export class App {
   protected readonly whatsappUrl = 'https://wa.me/573244623651';
   protected readonly instagramUrl = 'https://www.instagram.com/sergiosanchez851?igsh=MTRlNjd5ODVrcjg3NA%3D%3D';
   protected readonly videos: PortfolioVideo[] = [
-    { title: 'Coordinadora.mp4', src: '/videos/Coordinadora.mp4' },
-    { title: 'Corvette.mp4', src: '/videos/Corvette.mp4' },
-    { title: 'Full motion.mp4', src: '/videos/Full motion.mp4' },
-    { title: 'Pro video full.mp4', src: '/videos/Pro video full.mp4' },
-    { title: 'Video WC.mp4', src: '/videos/Video WC.mp4' },
-    { title: 'Videoluisito.mp4', src: '/videos/Videoluisito.mp4' }
+    { title: 'Coordinadora.mp4', src: '/videos/Coordinadora.mp4', thumbnail: '/posters/Coordinadora.jpeg' },
+    { title: 'Corvette.mp4', src: '/videos/Corvette.mp4', thumbnail: '/posters/Corvette.jpeg' },
+    { title: 'Full motion.mp4', src: '/videos/Full motion.mp4', thumbnail: '/posters/Full motion.jpeg' },
+    { title: 'Pro video full.mp4', src: '/videos/Pro video full.mp4', thumbnail: '/posters/Pro video full.jpeg' },
+    { title: 'Video WC.mp4', src: '/videos/Video WC.mp4', thumbnail: '/posters/Video WC.jpeg' },
+    { title: 'Videoluisito.mp4', src: '/videos/Videoluisito.mp4', thumbnail: '/posters/Videoluisito.jpeg' }
   ];
 
   protected readonly selectedVideo = signal<PortfolioVideo | null>(null);
