@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/porfatolio_sergio/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
