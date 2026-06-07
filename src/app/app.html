@@ -65,7 +65,7 @@
         <article class="work-card">
           <button class="work-video-button" type="button" (click)="openVideo(video)">
             <img class="work-video-thumbnail" [src]="video.thumbnail" [alt]="'Miniatura de ' + video.title">
-            <span class="play-badge">Ver video</span>
+            <span class="play-badge" aria-hidden="true"></span>
           </button>
           <h3>{{ video.title }}</h3>
         </article>
